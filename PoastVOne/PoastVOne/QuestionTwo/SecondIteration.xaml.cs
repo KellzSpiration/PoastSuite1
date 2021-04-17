@@ -85,6 +85,7 @@ namespace PoastVOne.QuestionTwo
                     }
                 }
                 parameter1.i++;
+                Max++;
 
             }
 
@@ -189,6 +190,11 @@ namespace PoastVOne.QuestionTwo
 
 
 
+        }
+
+       async private void BtnBack_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new FirstIterationQ2());
         }
     }
     }

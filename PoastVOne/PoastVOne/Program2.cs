@@ -6,7 +6,7 @@ namespace PoastVOne
 {
     class Program2
     {
-       public static void SolveFx(Parameter2 parameter2)   // the main logic method that is repeated above
+        public static void SolveFx(Parameter2 parameter2)   // the main logic method that is repeated above
         {
             parameter2.x = parameter2.THx;
             parameter2.y = parameter2.THy;
@@ -91,4 +91,5 @@ namespace PoastVOne
                 Console.WriteLine("f({0},{1}) = {2}", parameter2.THx, parameter2.THy, parameter2.TFunct[parameter2.i]);
             }
         }
+    }
 }

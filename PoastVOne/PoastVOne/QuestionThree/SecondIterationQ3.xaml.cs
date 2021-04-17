@@ -85,6 +85,7 @@ namespace PoastVOne.QuestionThree
                     }
                 }
                 parameter2.i++;
+                Max++;
             }
             int a;
             bool isEntryEmpty007 = string.IsNullOrEmpty(UpFX2.Text);
@@ -178,7 +179,7 @@ namespace PoastVOne.QuestionThree
                 c = 0;
             }
 
-            double T = a + a1 + a2 + a3 + b + c + p;
+            double T = a + a1 + a2 + a3 + b + c+ p; 
             // double score2 = Math.Round(T / 6 * 100);
 
             double score2 = T;

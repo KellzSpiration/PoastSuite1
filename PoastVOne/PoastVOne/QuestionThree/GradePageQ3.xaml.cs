@@ -12,10 +12,23 @@ namespace PoastVOne.QuestionThree
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GradePageQ3 : ContentPage
     {
-        public GradePageQ3(string score5)
+        protected override bool OnBackButtonPressed() => false;
+        
+        private double s;
+        public GradePageQ3(double score5)
         {
             InitializeComponent();
-            lblGrade.Text = score5 + "%"; 
+            s = score5; 
+        }
+
+       async private void ExitHJModule_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new FirstIterationQ3()); 
+        }
+
+        private void ReviewAndGrade_Clicked(object sender, EventArgs e)
+        {
+            UserScore.Text = s + "%";
         }
     }
 }

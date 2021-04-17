@@ -28,7 +28,7 @@ namespace PoastVOne.QuestionOne
 
                 if (parameter.bestPoint > parameter.THf)
                 {
-                    Program.SolveFx(parameter);
+                    Program5.SolveFx(parameter);
                 }
                 else
                 {
@@ -41,7 +41,7 @@ namespace PoastVOne.QuestionOne
                         parameter.THx = parameter.upperx;
                         parameter.THy = parameter.y;
 
-                        Program.SolveFx(parameter);
+                        Program5.SolveFx(parameter);
                     }
 
                     else if (parameter.lowerFx == parameter.bestPoint)
@@ -52,7 +52,7 @@ namespace PoastVOne.QuestionOne
                         parameter.h2 = parameter.h2 / 2;
                         parameter.THx = parameter.lowerx;
                         parameter.THy = parameter.y;
-                        Program.SolveFx(parameter);
+                        Program5.SolveFx(parameter);
 
                     }
 
@@ -65,7 +65,7 @@ namespace PoastVOne.QuestionOne
                         parameter.THx = parameter.xF;
                         parameter.THy = parameter.uppery;
 
-                        Program.SolveFx(parameter);
+                        Program5.SolveFx(parameter);
                     }
 
                     else if (parameter.lowerFy == parameter.bestPoint)
@@ -77,10 +77,11 @@ namespace PoastVOne.QuestionOne
                         parameter.THx = parameter.xF;
                         parameter.THy = parameter.lowery;
 
-                        Program.SolveFx(parameter);
+                        Program5.SolveFx(parameter);
                     }
                 }
                 parameter.i++;
+                
             }
 
             int a;

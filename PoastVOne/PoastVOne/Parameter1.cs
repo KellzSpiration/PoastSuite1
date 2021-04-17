@@ -59,7 +59,7 @@ namespace PoastVOne
         public int i { get; set; }
 
 
-        private double[] function = new double[5];
+        private double[] function = new double[8];
 
         public double[] Function
         {
@@ -70,7 +70,7 @@ namespace PoastVOne
 
         //Temporary Head
 
-        private double[] tFunc = new double[5];
+        private double[] tFunc = new double[8];
 
         public double[] TFunct
         {
@@ -79,7 +79,7 @@ namespace PoastVOne
         }
 
         // Upper functional Values
-        private double[] upFX = new double[5];
+        private double[] upFX = new double[8];
 
         public double[] UpFX
         {
@@ -87,7 +87,7 @@ namespace PoastVOne
             set { upFX = value; }
         }
 
-        private double[] upFY = new double[5];
+        private double[] upFY = new double[8];
 
         public double[] UpFY
         {
@@ -95,9 +95,8 @@ namespace PoastVOne
             set { upFY = value; }
         }
 
-
         // Lower functional Values
-        private double[] lowFX = new double[5];
+        private double[] lowFX = new double[8];
 
         public double[] LowFX
         {
@@ -105,7 +104,7 @@ namespace PoastVOne
             set { lowFX = value; }
         }
 
-        private double[] lowFY = new double[5];
+        private double[] lowFY = new double[8];
 
         public double[] LowFY
         {

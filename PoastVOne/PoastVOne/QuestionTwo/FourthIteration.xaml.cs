@@ -85,6 +85,7 @@ namespace PoastVOne.QuestionTwo
                     }
                 }
                 parameter1.i++;
+                Max++;
 
             }
             int a;

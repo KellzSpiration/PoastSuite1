@@ -83,6 +83,7 @@ namespace PoastVOne.QuestionTwo
                     }
                 }
                 parameter1.i++;
+                Max++;
 
             }
 
@@ -185,5 +186,7 @@ namespace PoastVOne.QuestionTwo
             // Bp1.Text = score.ToString();
             await Navigation.PushModalAsync(new SecondIteration (score));
         }
+
+      
     }
 }

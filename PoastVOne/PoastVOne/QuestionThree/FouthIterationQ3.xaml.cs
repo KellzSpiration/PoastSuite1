@@ -85,6 +85,7 @@ namespace PoastVOne.QuestionThree
                     }
                 }
                 parameter2.i++;
+                Max++;
 
             }
             int a;

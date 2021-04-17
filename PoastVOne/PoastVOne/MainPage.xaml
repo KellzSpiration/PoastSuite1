@@ -3,12 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PoastVOne.MainPage">
 
-    <StackLayout BackgroundColor="White">
+        <StackLayout BackgroundColor="White">
         <StackLayout BackgroundColor="#fcba20 " Margin="10,10,10,10">
             <Label TextColor="Black" FontSize="29" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="Center" Text="WELCOME TO HOOKE AND &#x0a;JEEVE'S  METHOD"/>
         </StackLayout>
         <Label/>
-        <Label FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="Center" TextColor="Black" Text="Please select a question from the list below"/>
+        <Label FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"
+               HorizontalOptions="Center" TextColor="Black" Text="Please select a question from the list below"/>
         <Label/>
         <Label/>
         <StackLayout Margin="20,15,20,0" BackgroundColor="GhostWhite" >

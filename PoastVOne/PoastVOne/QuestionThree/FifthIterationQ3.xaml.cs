@@ -85,6 +85,7 @@ namespace PoastVOne.QuestionThree
                     }
                 }
                 parameter2.i++;
+                Max++;
 
             }
             int a;
@@ -185,7 +186,7 @@ namespace PoastVOne.QuestionThree
 
 
             // Bp5.Text = score5.ToString();
-            await Navigation.PushModalAsync(new GradePageQ3(score5.ToString()));
+            await Navigation.PushModalAsync(new GradePageQ3(score5));
 
 
         }

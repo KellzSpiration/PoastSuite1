@@ -86,6 +86,7 @@ namespace PoastVOne.QuestionThree
                     }
                 }
                 parameter2.i++;
+                Max++;
             }
             int a;
             bool isEntryEmpty007 = string.IsNullOrEmpty(UpFX3.Text);

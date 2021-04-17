@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoastVOne.Android", "PoastV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoastVOne.iOS", "PoastVOne\PoastVOne.iOS\PoastVOne.iOS.csproj", "{FCE669F7-75D4-4CDC-A1CB-0CF7A9EABBB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoastVOne", "PoastVOne\PoastVOne\PoastVOne.csproj", "{CB612269-5144-4942-AA10-B3427426BA7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoastVOne", "PoastVOne\PoastVOne\PoastVOne.csproj", "{CB612269-5144-4942-AA10-B3427426BA7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

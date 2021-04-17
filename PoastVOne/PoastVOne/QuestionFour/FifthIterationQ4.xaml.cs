@@ -85,6 +85,8 @@ namespace PoastVOne.QuestionFour
                     }
                 }
                 parameter3.i++;
+                Max++;
+            }
                 int a;
                 bool isEntryEmpty001 = string.IsNullOrEmpty(UpFX5.Text);
                 if (isEntryEmpty001)
@@ -183,9 +185,8 @@ namespace PoastVOne.QuestionFour
 
 
                 // Bp5.Text = score5.ToString();
-                await Navigation.PushModalAsync(new GradePageQ4(score5.ToString()));
+                await Navigation.PushModalAsync(new GradePageQ4(score5));
 
             }
         }
     }
-}
