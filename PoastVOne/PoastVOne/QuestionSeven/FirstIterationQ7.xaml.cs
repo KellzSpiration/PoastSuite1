@@ -185,7 +185,7 @@ namespace PoastVOne.QuestionSeven
                 double score = T;
 
                 // Bp1.Text = score.ToString();
-               // await Navigation.PushModalAsync(new SecondIterationQ7(score));
+                await Navigation.PushModalAsync(new SecondIterationQ7(score));
             }
 
         }
