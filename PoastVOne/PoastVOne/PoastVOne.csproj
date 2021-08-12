@@ -30,7 +30,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="QuestionEight\FifthIterationQ8.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="QuestionEight\FirstIterationQ8.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="QuestionEight\FourthIterationQ8.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="QuestionEight\GradePageQ8.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="QuestionEight\SecondIterationQ8.xaml">

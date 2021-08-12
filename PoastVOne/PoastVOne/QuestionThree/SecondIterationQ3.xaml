@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="White" Margin="0,10,0,0">
             <Label Text="HOOKES AND JEEVES METHOD" HorizontalOptions="Center" FontSize="25" Margin="0,0,0,15" FontAttributes="Bold" TextColor="DarkGoldenrod"></Label>
-            <Label Text="Problem Statement ;" TextColor="DarkGoldenrod"  Margin="10,0,0,0" FontSize="20"/>
+           
             <Grid ColumnSpacing="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -19,7 +19,7 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
+                    
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
@@ -27,7 +27,7 @@
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
-                <Label   Text="Use Hookes and Jeeves Method to solve;"   Margin="10,5,0,0" Grid.ColumnSpan="3" TextColor="Black" Grid.Row="0" Grid.Column="0"/>
+               
                 <Label Text="2nd Iteration" Margin="0,20,0,0" TextColor="White" FontAttributes="Bold" Grid.Row="1" HorizontalTextAlignment="Center" Grid.Column="1" BackgroundColor="DarkGoldenrod"/>
                 <Label Text="Local Search" TextColor="Black" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" Margin="10,0,0,0" />
 
